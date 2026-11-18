@@ -1,0 +1,11 @@
+{
+  "name": "stand-down-tests",
+  "private": true,
+  "description": "Headless browser tests for STAND DOWN. The game itself has no build step and no dependencies; only the tests use npm.",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}
